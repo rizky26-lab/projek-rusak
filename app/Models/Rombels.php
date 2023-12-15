@@ -14,6 +14,6 @@ class Rombels extends Model
     ];
 
     public function students() {
-        return $this->belongsTo(students::class);
+        return $this->hasMany(students::class);
     }
 }

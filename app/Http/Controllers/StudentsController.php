@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Students;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\rayons;
+use App\Models\rombels;
 
 class StudentsController extends Controller
 {
@@ -22,8 +24,9 @@ class StudentsController extends Controller
      */
     public function create()
     {
-        $students = Students::all();
-        return view('students.create');
+        $rombel = rombels::all();
+        $rayon = rayons::all();
+        return view('students.create', compact('rombel', 'rayon'));
     }
 
     /**

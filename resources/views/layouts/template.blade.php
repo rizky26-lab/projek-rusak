@@ -27,13 +27,13 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Data Master
+                          Data Murid
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="{{ route('rombel.index') }}">Data Rombel</a></li>
-                          <li><a class="dropdown-item" href="{{ route('rayon.index') }}">Data Rayon</a></li>
-                          <li><a class="dropdown-item" href="{{ route('student.index') }}">Data Siswa</a></li>
-                          <li><a class="dropdown-item" href="{{ route('user.index') }}">Data User</a></li>
+                          <li><a class="dropdown-item" href="{{ route('rombel.index') }}">Rombel</a></li>
+                          <li><a class="dropdown-item" href="{{ route('rayon.index') }}">Rayon</a></li>
+                          <li><a class="dropdown-item" href="{{ route('student.index') }}">Siswa</a></li>
+                          <li><a class="dropdown-item" href="{{ route('user.index') }}">User</a></li>
                           <li>
                           </li>
                         </ul>

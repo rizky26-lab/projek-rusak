@@ -12,7 +12,7 @@
         <input type="text" class="form-control" name="rayon" id="rayon">
     </div>
     <div class="mb-3 row">
-        <label for="user_id" class="col-sm-2 col-form-label">User_id</label>
+        <label for="user_id" class="col-sm-2 col-form-label">PS</label>
         <input value="" class="form-control" name="user_id" id="user_id">
     </div>
     <button type="submit" class="btn btn-primary mt-3">Tambah Data</button>
