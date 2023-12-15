@@ -13,7 +13,7 @@
             <tr>
                 <td class="text-center">No</td>
                 <th>Rayon</th>
-                <th>User_id</th>
+                <th>PS</th>
                 <th>Aksi</th>
             </tr>
         </thead>
